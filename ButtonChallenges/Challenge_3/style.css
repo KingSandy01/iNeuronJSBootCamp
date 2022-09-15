@@ -1,0 +1,33 @@
+body{
+    background-color: #fff;
+}
+
+.btn{
+    padding: 20px 60px;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 450px;
+    margin-left: 800px;
+    background:linear-gradient(to bottom, #417bac 0%,#205785 34%,#003669 78%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.699);
+}
+
+.btn-text-one{
+    color: #fff ;
+}
+
+.btn-text-two{
+    display: none;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.699);
+    background: linear-gradient(to bottom, #3b78aa 0%,#235781 34%,#00315e 78%) ;
+
+}
+  
