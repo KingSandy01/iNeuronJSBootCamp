@@ -1,0 +1,254 @@
+
+/* NOTE: Please View the Screen in 75% Zoom */
+
+
+.container{
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+img[alt=brand-logo]{
+    margin-top: 40px;
+    width: 200px;
+    flex:1;
+    
+}
+.list{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; 
+    font-family: "Orbitron" ;
+    font-weight: 600;
+    font-size: 38px;
+   
+    flex: 2;
+    margin-left: 270px;
+    
+}
+.list-item
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+}
+
+.list-item:hover
+{
+    cursor: pointer;
+    font-size: 45px; 
+    font-weight: 700;
+    border-bottom: 5px solid black ;
+}
+
+.button-group
+{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 30px;
+    align-items: baseline;
+    flex: 1;
+}
+
+.nav-button
+{
+    align-items: baseline;
+    justify-content: baseline;
+    border: 4px solid black;
+    padding: 0 60px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    align-content: baseline;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    border-radius: 25px;
+    font-weight: 700px;
+    background-color: #fff;
+    margin-left: 20px;
+    color: gray;
+}
+
+.nav-button:hover{
+    cursor:text;
+}
+
+/* 2nd Part */
+
+.hero-container
+{
+    display: flex;
+    order: 1;
+}
+
+img[alt=person-hero-iamge]
+{
+    position:absolute;
+    margin-top: 140px;
+    order: 0;
+    width: 700px;
+}
+.square
+{
+    position: absolute;
+    width: 20px;
+    margin-top: 505px;
+    margin-left: 220px;
+    order:1;
+}
+
+img[alt=square-pattern]
+{
+    width: 600px;
+}
+img[alt=star1-pattern]
+{
+    position: absolute;
+    order: 3;
+    width: 100px;
+    margin-left: 2125px;
+    margin-top: 160px;
+
+} 
+img[alt=star2-pattern]
+{
+    position: absolute;
+    order: 2;
+    width: 60px;
+    margin-left: 950px;
+    margin-top: 960px;
+
+} 
+img[alt=globe-pattern]
+{
+    position: absolute;
+    order: 4;
+    width: 90px;
+    margin-left: 1100px;
+    margin-top: 70px;
+}
+
+/* Decorations done */
+/* NOW */
+/* CONTENT PART */
+
+.hero-container-right
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    order: 5;
+    flex: 2;
+    height: 800px;
+    margin-left: 900px;
+    margin-top: 245px;
+}
+
+h1[class=hero-heading]{
+    font-family: "Orbitron" ;
+    font-weight: 900;
+    font-size: 95px;
+}
+
+.hero-description{
+
+   font-family: "Poppins", sans-serif; 
+   font-size: 24px;
+   font-weight: 500;
+
+   color: gray;
+
+   text-align: center;
+   width: 1010px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+button[class=button-email]{
+ 
+    
+    padding: 7px 40px;
+    border: 3px solid black;
+    border-radius: 15px;
+
+    font-family: "Orbitron";
+    font-weight: 600;
+    font-size: 30px;
+
+    color: rgb(109, 109, 109);
+    text-align: center;
+    background-color: #fff;
+    margin-left: 370px;
+    margin-top: 90px;
+   
+}
+
+button[class=button-join]{
+
+   
+
+    padding: 7px 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+
+    font-family: "Orbitron";
+    font-weight: 500;
+    font-size: 30px;
+
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    margin-left: 30px;
+
+}
+
+.contact-heading{
+
+   font-family: "Poppins", sans-serif; 
+   font-size: 35px;
+   font-weight: 500;
+   color: gray;
+
+   margin-left: 550px;
+   margin-top: 130px;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center ;
+    justify-content: center;
+    justify-content: space-between;
+
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+img[alt=facebook-icon] 
+{
+    width:60px;
+}
+
+img[alt=messenger-icon] 
+{
+    width:60px;
+}
+img[alt=instagram-icon] 
+{
+    width:60px;
+}
+img[alt=whatsapp-icon]
+{
+    width:60px;
+}
+
