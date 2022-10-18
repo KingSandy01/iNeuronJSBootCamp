@@ -1,0 +1,108 @@
+ body{
+
+    border: none;
+    margin: 0px 0px;
+}
+
+.navbar{
+
+    background-color: black;
+    color: #fff;
+
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    margin-left: 50px;
+}
+
+.list-item{
+    margin-left: 30px;
+    margin-right: 30px;
+    list-style: none;
+    font-size: 22px;
+    font-family: "Montserrat";
+}
+.list-item:hover{
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(233, 233, 233);
+
+}
+
+img[alt=logo]{
+    width: 120px;
+    border-right: solid 2px #fff ;
+    padding: 15px 100px;   
+}
+
+.button-small{
+    padding: 10px 40px;
+    font-size: 22px;
+    border: solid 1px  rgb(197, 23, 145);
+    border-radius: 10px;
+    background-color: rgb(197, 23, 145);
+    color: #fff;
+    font-family: "Montserrat";
+    margin-left: 400px;
+}
+
+.button-small:hover{
+    cursor: pointer;
+    font-size: 22px;
+    background: linear-gradient(to bottom, rgb(236, 0, 165), rgba(158, 1, 111, 0.897) );
+}
+
+/* Hero Section */
+.hero{
+    margin: 0px 0px;
+
+    height: 114vh;
+    width: 1905px;
+    background-image: url(./assets/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 106px;
+    text-align: center;
+    width: 1200px;
+    color: #fff;
+
+    margin-top: 250px;
+}
+
+.hero-description{
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 37px;
+    color: #fff;
+    margin-top: -80px;
+}
+
+.button-large{
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 15px 20px;
+    font-size:40px;
+    border: solid 1px  rgb(197, 23, 145);
+    border-radius: 10px;
+    background-color: rgb(197, 23, 145);
+    color: #fff;
+    margin-top: 40px;
+}
+
+.button-large.button-large:hover{
+    cursor: pointer;
+    font-size: 40px;
+    background: linear-gradient(to bottom, rgb(236, 0, 165), rgba(158, 1, 111, 0.897) );
+}  
