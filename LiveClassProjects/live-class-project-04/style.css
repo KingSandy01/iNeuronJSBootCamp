@@ -1,0 +1,133 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    background-color: #fff;
+
+}
+/* Section - Navbar  */
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content:start;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    font-size: 21px;
+    font-weight: 500;
+    
+    margin-left: 10px;
+}
+
+img[alt=brand-logo]{
+    width: 150px;
+}
+
+.list-item{
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style: none;
+
+    color: rgb(190, 190, 190);
+    flex-wrap: wrap;
+}
+
+.list-item:hover{
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-button{
+    padding: 23px 40px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 620px;
+    letter-spacing: 0.5px;
+
+    border: solid 1px #6567b1;
+    border-radius: 15px;
+
+    background-color:#6567b1;
+    color: #fff;
+}
+
+.nav-button:hover{
+    cursor: pointer;
+    padding: 24px 41px;
+    background-color: #5a5cac;
+
+    box-shadow: 5px 5px 5px #2c2d6d;
+   
+}
+
+/* Banner */
+
+.banner-container{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 50px;
+    /* align-items: center; */
+    justify-content: flex end;
+}
+
+
+
+img[alt=illustration]{
+    width: 1200px;
+  
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.heading-text{
+ flex: 1;
+    font-weight: 600;
+    width: 600px;
+    font-size: 85px;
+    text-align: left;
+    color: #3a135f;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 150px;
+    line-height: 100px;
+}
+
+span{
+    color: #5a5cac;
+}
+
+.description{
+    color: rgb(165, 165, 165);
+    font-size: 22px;
+    font-weight: 500;
+    width: 550px;
+    margin-left: 150px;
+    text-justify: left;
+    margin-top: -20px;
+}
+
+.btn{
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 35px 70px;
+}
